@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width-device-width, intial-scale=1.0">
+<title>THE COOKIES SHOP | Get Your Cookies! </title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+	<div class="header">
+	<div class="container">
+	<div class="navbar">
+	<div class="logo">
+	<img src="logo.png" width="125px">
+	</div>
+	<nav>
+		<ul id="MenuItems">
+		<li><a href="">Home</a></li>
+		<li><a href="products.html">Products</a></li>
+		<li><a href="">About</a></li>
+		<li><a href="">Contact</a></li>
+		<li><a href="">Account</a></li>
+		<li><a href="cart.html"><img src="shopping-cart.png" width="30px" height="30px"></a></li>
+</ul>
+	</nav>
+		<img src="logo.png" class="menu-icon"
+		onclick="menutoggle()">
+</div>
+<div class="row">
+	<div class="col-2">
+	<h1>Welcome to<br> THE COOKIES SHOP!</h1>
+	<p>We provided best freshly baked cookies for you,</p>
+	<p>Get your Cookies today !</p>
+	<a href="products.html" class="btn">Explore Now &#8594;</a>
+</div>
+<div class="col-2">
+	<img src="images/11.png" alt="">
+</div>
+</div>
+</div>
+</div>
+	
+<!------ featured categories ------>
+	
+<!------ featured products ------>
+	<div class="small-container">
+	<h2 class="title">Featured Products</h2>
+		<div class="row">
+			<div class="col-4">
+			<img src="blueberry.jpg">
+			<h4>Bewwy</h4>
+			<p>Blueberry Cheesecake Cookie</p>
+			<div class="rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-o"></i>
+				</div>
+			<p>IDR 40K</p>
+			<a class="add-cart cart1" href ="#">Add to Cart</a>
+</div>
+	<div class="col-4">
+			<img src="hotchoco.jpg">
+			<h4>Coocky</h4>
+			<p>Hot Chocolate Cookie</p>
+			<div class="rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-o"></i>
+				</div>
+			<p>IDR 44K</p>
+			<a class="add-cart cart2" href ="#">Add to Cart</a>
+</div>
+	<div class="col-4">
+			<img src="strawberry.png">
+			<h4>Star</h4>
+			<p>Strawberry - Vanilla Cookie</p>
+			<div class="rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-half-o"></i>
+				<i class="fa fa-star-o"></i>
+				</div>
+			<p>IDR 35K</p>
+			<a class="add-cart cart3" href ="#">Add to Cart</a>
+			</div>
+	<div class="col-4">
+			<img src="macaroons.jpg">
+			<h4>Maca-Maca</h4>
+			<p>Pastel French Macaroons</p>
+			<div class="rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-half-o"></i>
+				</div>
+			<p>IDR 60K/box</p>
+			<a class="add-cart cart4" href ="#">Add to Cart</a>
+			</div>
+</div>
+	<h2 class="title">Latest Products</h2>	
+		<div class="row">
+			<div class="col-4">
+			<a href="product-details.html"></a><img src="chocochip.jpg">
+			<h4>Classy</h4>
+			<p>Classic Chocochip Cookie</p>
+			<div class="rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-o"></i>
+				</div>
+			<p>IDR 30K</p>
+			<a class="add-cart cart5" href ="#">Add to Cart</a>
+			</div>
+	<div class="col-4">
+			<img src="peanut.png">
+			<h4>Penny</h4>
+			<p>Peanut Butter Cookie</p>
+			<div class="rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-half-o"></i>
+				<i class="fa fa-star-o"></i>
+				</div>
+			<p>IDR 30K</p>
+			<a class="add-cart cart7" href ="#">Add to Cart</a>
+		</div>
+	<div class="col-4">
+			<img src="matcha.jpg">
+			<h4>Matchi</h4>
+			<p>Matcha Cookie</p>
+			<div class="rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-half-o"></i>
+				</div>
+			<p>IDR 32K</p>
+			<a class="add-cart cart8" href ="#">Add to Cart</a>
+			</div>
+	<div class="col-4">
+			<img src="lemon.jpg">
+			<h4>Lemo</h4>
+			<p> Lemon Milky Cookie</p>
+			<div class="rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-o"></i>
+				</div>
+			<p>IDR 32K</p>
+			<a class="add-cart cart9" href ="#">Add to Cart</a>
+</div>
+			
+	
+</div>
+</div>
+<!---------offer--------->
+	<div class="offer">
+	<div class="small-container">
+	<div class="row">
+	<div class="col-2">
+	<img src="strawberry1.png" class="offer-img">
+</div>
+	<div class="col-2">
+	<p>Exclusively Available on THE COOKIES SHOP</p>
+	<h1>STAR</h1>
+	<p> Strawberry-Vanilla Cookie </p>
+	<small>with the simple yet delicious taste of the cream, Star is definitely shining!</small>
+	<a href="products.html"class="btn">Buy Now &#8594;</a>
+</div>
+</div>
+</div>
+</div>
+<!---------- testimonial ---------->
+	<div class="testimonial">
+	<div class="small-container">
+	<div class="row">
+	<div class="col-3">
+		<i class="fa fa-quote-left"></i>
+		<p>Delicious!</p>
+		<div class="rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-o"></i>
+				</div>
+				<h3>David</h3>
+</div>
+	<div class="col-3">
+		<i class="fa fa-quote-left"></i>
+		<p>Perfect for my stomach and my wallet!</p>
+		<div class="rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-o"></i>
+				</div>
+				<h3>Renata</h3>
+</div>
+	<div class="col-3">
+		<i class="fa fa-quote-left"></i>
+		<p>I love the red velvet one! A recommendation from me!</p>
+		<div class="rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-o"></i>
+				</div>
+				<h3>Bella</h3>
+</div>
+</div>
+</div>
+</div>
+
+<!---------- brands ---------->
+	
+<!----------footer---------->
+
+	<div class="footer">
+	<div class="container">
+	<div class="row">
+	<div class="footer-col-1">
+		<h3>Download Our App</h3>
+		<p>Download App for Android and ios mobile phone.</p>
+		<div class="app-logo">
+			<img src="images/32.png">
+			<img src="images/33.png">
+		</div>
+		</div>
+		<div class="footer-col-2">
+		<img src="images/31.png">
+		<p>Our Purpose Is To Make Cookies Taste More Interesting Than Others.</p>
+		</div>
+		<div class="footer-col-3">
+		<h3>Useful Links</h3>
+		<ul>
+			<li>Coupons</li>
+			<li>Blog Post</li>
+			<li>Return Policy</li>
+			<li>Join Affiliate</li>
+		</ul>
+		</div>
+		<div class="footer-col-4">
+		<h3>Follow us</h3>
+		<ul>
+			<li>Facebook</li>
+			<li>Twitter</li>
+			<li>Instagram</li>
+			<li>Youtube</li>
+		</ul>
+	</div>
+	</div>
+	<hr>
+	<p class="Copyright">Copyright 2020 © - THE COOKIES SHOP</p>
+</div>
+</div>
+
+<!----------for toggle menu---------->
+
+	<script>
+		var MenuItems = document.getElementById("MenuItems");
+			MenuItems.style.maxHeight == "0px")
+			
+			function menutoggle(){
+				{
+				MenuItems.style.maxHeight = "200px";
+				}
+				else
+				{
+				MenuItems.style.maxHeight = "0px";
+				}
+			}
+	</script>
+<script src ="main.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
